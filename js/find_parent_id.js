@@ -15,7 +15,8 @@ let  arr = [{
 }]
 
 const fn = (data, value) => {
-    let res = []
+    let res = [];
+
     const dfs = (arr, temp = []) => {
       for (const node of arr) {
         if (node.children) {
